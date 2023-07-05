@@ -11,7 +11,7 @@
           放假啦
         </h2>
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
-          world
+          瞌睡了
         </p>
       </div>
     </div>
