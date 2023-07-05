@@ -2,7 +2,7 @@ module.exports = {
     apps: [
         {
             name: 'nuxt-adam',
-            script: 'npm run start',
+            script: 'npm run dev',
             exec_mode: 'fork',
             instances: '1',
 
