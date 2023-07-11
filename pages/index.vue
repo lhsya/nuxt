@@ -1,7 +1,6 @@
 <template>
   <div class="a">
-  <Tutorial/>
-    <p class="b">{{ a }}</p>
+    <NavMenu @handleSelect="handleSelect" defaultActive="/"/>
   </div>
 </template>
 
@@ -10,7 +9,13 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      a: 'hahahahah'
+      pageItem: '1'
+    }
+  },
+  methods: {
+    handleSelect(val) {
+      console.log(val)
+      this.pageItem = val;
     }
   }
 }
