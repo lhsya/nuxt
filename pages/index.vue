@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="a">
   <Tutorial/>
-    <p>{{ a }}</p>
+    <p class="b">{{ a }}</p>
   </div>
 </template>
 
@@ -15,3 +15,10 @@ export default {
   }
 }
 </script>
+<style lang="less">
+.a {
+  .b {
+    color: red;
+  }
+}
+</style>
