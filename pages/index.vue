@@ -1,12 +1,15 @@
 <template>
-  <div class="a">
-    <NavMenu @handleSelect="handleSelect" defaultActive="/"/>
+  <div>
+    hahahahaha
   </div>
 </template>
 
 <script>
 export default {
+  layout: 'index',
   name: 'IndexPage',
+  components: {
+  },
   data() {
     return {
       pageItem: '1'
@@ -21,9 +24,5 @@ export default {
 }
 </script>
 <style lang="less">
-.a {
-  .b {
-    color: red;
-  }
-}
+
 </style>

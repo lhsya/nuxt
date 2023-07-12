@@ -13,7 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js', async: true, defer: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js', async: true, defer: true }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
